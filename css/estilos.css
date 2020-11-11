@@ -1,0 +1,20 @@
+//Quitar espacios * {margin: 0;padding: 0;}
+
+body {background:rgba(147,31,31,0.99);}
+h2 {background-color: rgba(0,0,0,0.10); text-align: center;}
+h2,p{color: red; font-family: "Verdana";}
+h1{font-size:20px;}
+h4,h3{font-size:20px;
+text-decoration: none;
+margin: 10px 20px;
+display: inline-block;
+background: #3BA7E1;
+color:#fff;
+padding:10px 20px;
+text-align: center;}
+h4{
+	text-decoration: underline;
+}
+//p{color:gold;}
+//p a {font-size: 40px}
+//.green {color: green}
