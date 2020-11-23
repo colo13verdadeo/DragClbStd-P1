@@ -1,0 +1,370 @@
+@media only screen and (max-width: 1140px){
+    .imgHeader{
+        height: 96vh;
+    }
+    .tamañoHead{
+        height: 90vh;
+    }
+
+
+    .imgSepar{
+        height: 90vh;
+    }
+    .enlaces{
+        top: -240px;
+    }
+    .btnAboutUs{
+        left: -2.7%;
+    }
+    .btnContact, .btnContact2{
+        left: 94.5%;
+    }
+    .btnContact2{
+        left: 94.7%;
+    }
+
+
+    .contenedor{
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .imgFooterDesk{
+        height: 50vh;
+    }
+    footer .contain{
+        top: 165px;
+        right: 12%;
+    }
+    .h2Footer{
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .imgHeader{
+        height: 90vh;
+        object-position: left top;
+    }
+    .tamañoHead{
+        height: 90vh;
+    }
+    .sizeSec{
+        height: 200px;
+        margin-top: 10px;
+    }
+    .space{
+        margin-right: 0;
+        margin-top: -30px;
+        margin-bottom: 60px;
+    }
+    .sizeMain{
+        height: 70%;
+    }
+
+
+    .btnAboutUs{
+        left: -3.3%;
+    }
+    .btnContact, .btnContact2{
+        left: 93.7%;
+    }
+    .btnContact2{
+        left: 93.9%;
+    }
+    .contenedor .caja{
+        width: 45%;
+        height: 200px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+
+    .imgFooterDesk{
+        width: 99vw;
+        height: 45vh;
+    }
+    footer .contain{
+        top: 130px;
+    }
+    .h2Footer{
+        position: relative;
+        right: 16%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .imgSepar{
+        height: 75vh;
+    }
+    .enlaces{
+        top: -260px;
+        left: -20px;
+    }
+    
+    .btnAboutUs{
+        left: -3.9%;
+    }
+    .btnContact, .btnContact2{
+        left: 91.6%;
+    }
+    .btnContact2{
+        left: 91.9%;
+    }
+
+    .contenedor{
+        max-width: 550px;   
+    }
+    .contenedor .caja{
+        width: 55%;
+        height: 200px;
+    }
+
+    footer .contain{
+        top: 130px;
+        left: 1%;
+    }
+    .enlFooter{
+        margin-right: 10%;
+    }
+    .h2Footer{
+        right: 25%;
+    }
+    .pFoo{
+        position: absolute;
+        top: 95px;
+        left: -5%;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+    .imgHeader{
+        height: 99vh;
+        object-position: 12% top;
+    }
+    .tamañoHead{
+        height: 98vh;
+    }
+
+
+    .enlaces{
+        top: -270px;
+        font-size: 12px;
+    }
+    .imgSepar{
+        height: 60vh;
+    }
+
+    .contenedor{
+        max-width: 450px;
+    }
+    .contenedor .caja{
+        width: 90%;
+        height: 200px;
+    }
+
+    .btnAboutUs{
+        left: -5.6%;
+    }
+    .btnContact, .btnContact2{
+        left: 88.9%;
+    }
+    .btnContact2{
+        left: 89.5%;
+    }
+
+    .imgFooterDesk{
+        display: none;
+    }
+    .imgFooterMob{
+        width: 100%;
+        height: 90%;
+        display: inline-block;
+        position: absolute;
+        object-position: center top;
+        object-fit: cover;
+    }
+
+    footer .contain{
+        top: 300px;
+        left: 0%;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin: auto;
+    }
+    .enlFooter{
+        margin: auto;
+    }
+    .h2Footer{
+        right: 0;
+        margin: auto;
+    }
+    .pFoo{
+        position: absolute;
+        top: 240px;
+        left: -5%;
+    }
+}
+
+
+/* Buttons align */
+
+@media only screen and (max-width: 1920px){
+    .btnAboutUs{
+        left: -2.2%;
+    }
+    .btnContact, .btnContact2{
+        left: 96.6%;
+    }
+    .btnContact2{
+        left: 96.8%;
+    }
+}
+
+@media only screen and (max-width: 1540px){
+    .btnAboutUs{
+        left: -2.2%;
+    }
+    .btnContact, .btnContact2{
+        left: 95.9%;
+    }
+    .btnContact2{
+        left: 96.1%;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .btnAboutUs{
+        left: -2.5%;
+    }
+    .btnContact, .btnContact2{
+        left: 95.4%;
+    }
+    .btnContact2{
+        left: 95.7%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .btnAboutUs{
+        left: -2.9%;
+    }
+    .btnContact, .btnContact2{
+        left: 94.6%;
+    }
+    .btnContact2{
+        left: 94.9%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .btnAboutUs{
+        left: -3.3%;
+    }
+    .btnContact, .btnContact2{
+        left: 93.6%;
+    }
+    .btnContact2{
+        left: 93.9%;
+    }
+}
+@media only screen and (max-width: 902px){
+    .btnAboutUs{
+        left: -4%;
+    }
+    .btnContact, .btnContact2{
+        left: 93%;
+    }
+    .btnContact2{
+        left: 93.5%;
+    }
+}
+@media only screen and (max-width: 802px){
+    .btnAboutUs{
+        left: -4%;
+    }
+    .btnContact, .btnContact2{
+        left: 92%;
+    }
+    .btnContact2{
+        left: 92.5%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .btnAboutUs{
+        left: -4%;
+    }
+    .btnContact, .btnContact2{
+        left: 92%;
+    }
+    .btnContact2{
+        left: 92.5%;
+    }
+}
+@media only screen and (max-width: 668px){
+    .btnAboutUs{
+        left: -4%;
+    }
+    .btnContact, .btnContact2{
+        left: 91%;
+    }
+    .btnContact2{
+        left: 91.5%;
+    }
+}
+@media only screen and (max-width: 568px){
+    .btnAboutUs{
+        left: -6%;
+    }
+    .btnContact, .btnContact2{
+        left: 89.1%;
+    }
+    .btnContact2{
+        left: 89.5%;
+    }
+
+    .h2Footer{
+        top: 50px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 510px){
+    .btnContact, .btnContact2{
+        left: 88.6%;
+    }
+    .btnContact2{
+        left: 88.9%;
+    }
+}
+@media only screen and (max-width: 468px){
+    .btnAboutUs{
+        left: -7%;
+    }
+    .btnContact, .btnContact2{
+        left: 88.3%;
+    }
+    .btnContact2{
+        left: 89.6%;
+    }
+    
+}
+@media only screen and (max-width: 420px){
+    .btnAboutUs{
+        left: -8%;
+    }
+    .btnContact, .btnContact2{
+        left: 84.3%;
+    }
+    .btnContact2{
+        left: 84.6%;
+    }
+}
+@media only screen and (max-width: 348px){
+    .btnContact, .btnContact2{
+        left: 81.3%;
+    }
+    .btnContact2{
+        left: 81.6%;
+    }
+}

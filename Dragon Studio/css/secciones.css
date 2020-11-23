@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+ul{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 160px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgb(255, 99, 99);
+    text-transform: capitalize;
+}
+ul li:hover , .activo{
+    background:  rgb(255, 120, 99);
+    color: #eee;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.contenedor .fotos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contenedor .caja{
+    width: 32%;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.contenedor .caja img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: cover;
+    clip-path: polygon(0 0, 35% 0, 40% 7%, 61% 7%, 65% 0, 100% 0, 100% 100%, 66% 100%, 62% 93%, 40% 93%, 36% 100%, 0 100%);
+}
+.fotos .caja img:hover{
+    transform: scale(1.5);
+    transition: all ease 1.5s;
+    cursor: pointer;
+}
