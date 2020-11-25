@@ -179,6 +179,7 @@
         display: none;
     }
     .imgFooterMob{
+        margin-top: 60px;
         width: 100%;
         height: 90%;
         display: inline-block;
@@ -188,7 +189,7 @@
     }
 
     footer .contain{
-        top: 300px;
+        top: 360px;
         left: 0%;
         right: 0;
         margin-left: 0;
@@ -312,6 +313,9 @@
     .btnContact2{
         left: 91.5%;
     }
+    .vmMobile{
+        margin-top: 70px !important;
+    }
 }
 @media only screen and (max-width: 568px){
     .btnAboutUs{
@@ -338,6 +342,13 @@
     }
 }
 @media only screen and (max-width: 468px){
+    .imgHeader{
+        height: 99vh;
+        object-position: 15% top;
+    }
+    .tamañoHead{
+        height: 98vh;
+    }
     .btnAboutUs{
         left: -7%;
     }

@@ -1,4 +1,9 @@
+// mostrar y ocultar enlaces
 $(document).ready(function(){
+    $(".contenidos").hide();
+    $(".ilustracionesDos").hide();
+    $(".videos").hide();
+
     $('.enlaces').click(function(){
         var valor = $(this).attr('data-nombre');
         if(valor == 'todos'){
