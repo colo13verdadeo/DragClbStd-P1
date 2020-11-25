@@ -37,8 +37,8 @@
         "formContacto":"Contacto",
         "formEmail":"Agregar email para contacto",
         "footerTienda":"Tienda",
-        "footerMundos":"Mundos",
-        "footerContenidos":"Contenido",
+        "footerMundos":"Galeria",
+        "footerContenidos":"Videos",
         "footer1p":"¿No tienes un servidor de construcción profesional público donde construir?",
         "footer2p":"Entra a play.dragonclub.es - Versión: 1.12.2",
         "footer3p":"¡Disfruta de tu estadía!"
@@ -80,8 +80,8 @@
         "formDesc":"Description",
         "formEmail":"Add your emails of contact",
         "footerTienda":"Store",
-        "footerMundos":"Worlds",
-        "footerContenidos":"Content",
+        "footerMundos":"Gallery",
+        "footerContenidos":"Video",
         "footer1p":"Do you lack a proffesional public building server where you can create whatever you want?",
         "footer2p":"Enter play.dragonclub.es - version 1.12.2",
         "footer3p":"Enjoy your stay!"
