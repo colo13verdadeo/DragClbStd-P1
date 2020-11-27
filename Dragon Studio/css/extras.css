@@ -314,8 +314,9 @@ footer .contain{
     text-align: center;
 }
 .textNosCab{
-    margin-top: 30px;
-    margin-left: 5px;
+    width: 100px !important;
+    margin-top: 50px;
+    margin-left: -25px;
     transform: rotate(90deg);
 }
 .asd{
@@ -333,7 +334,7 @@ footer .contain{
     background: linear-gradient(-135deg, #77031A, #E26D5A);
 }
 .cardNos:hover{
-    height: 780px;
+    height: 800px;
     width: 300px;
     border-radius: 5px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, .5);
