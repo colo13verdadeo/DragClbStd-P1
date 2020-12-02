@@ -11,6 +11,7 @@
     <!-- Third party plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
     <!-- CSS, Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/extras.css">
     <link rel="stylesheet" href="css/secciones.css">
@@ -19,10 +20,11 @@
 
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/languajes.js"></script>
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="js/jquery.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -288,84 +290,87 @@
                 </script>
 
                 <div class="contVMas">
-                    <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja  filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/12.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/12.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/13.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/13.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/14.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/14.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/15.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/15.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/16.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/16.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/17.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/17.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/18.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/18.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/19.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/19.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/20.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/20.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+
+
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/21.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/21.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/22.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/22.jpg" class="img-responsive" alt="Logo Design">
                             </a>
                         </div>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6 caja" style="width: 100%;" data-wow-delay="0.6s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/23.jpg" class="image-popup">
                                 <img src="assets/img/portfolio/23.jpg" class="img-responsive" alt="Logo Design">
@@ -519,16 +524,21 @@
             <a href="#anchorTarget" class="anchorLink"><button class="back-to-top" type="button"><img src="assets/img/icons8-up-48.png" alt=""></button></a>
 
 
-           
+            <!-- Bootstrap core JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
             <!-- Third party plugin JS-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
             <script src="js/jquery.parallax.js"></script>
             <script src="js/jquery.magnific-popup.min.js"></script>
             <script src="js/magnific-popup-options.js"></script>
             <script src="js/smoothscroll.js"></script>
             <script src="js/wow.min.js"></script>
+            <script src="js/custom.js"></script>
 </body>
 
 </html>
