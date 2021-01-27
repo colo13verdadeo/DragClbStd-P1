@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logoImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.logoImg img{
+    width: 100%;
+    max-width: 600px;
+}
+.container{
+    width: 88vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.datos{
+    width: 60%;
+    height: 100%;
+    padding-top: 40px;
+}
+p, label{
+    font-size: 20px;
+    font-family: montserrat;
+}
+textarea{
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-bottom: 12px;
+}
+#textInput{
+    width: 80%;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin-bottom: 12px;
+
+}
+.btnPub{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: #fff;
+}
+.btnPub:hover{
+    width: 140px;
+    height: 35px;
+    transition: all 500ms;
+    background: #eee;
+}
+
+.visualiteCont{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    min-height: 250px;
+    margin-top: 180px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+button:hover{
+    padding: 12px;
+    background: #eee;
+    transition: all 500ms;
+}
+
+
+
+/* Movil */
+@media only screen and (max-width: 900px){
+    .container{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .datos{
+        width: 80%;
+        height: 100%;
+        padding-top: 20px;
+    }
+    p, label{
+        font-size: 15px;
+        font-family: montserrat;
+    }
+    textarea{
+        width: 90%;
+    }
+    #textInput{
+        width: 90%;
+        height: 40px;
+        border: 1px solid #000;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+    .btnPub{
+        margin-top: 30px;
+    }
+    .logoImg img{
+        width: 100%;
+        max-width: 430px;
+    }
+    .visualiteCont{
+        margin-top: 10px;
+    }
+    .visualite{
+        margin-top: 30px;
+        width: 75%;
+        height: 350px;
+    }
+}

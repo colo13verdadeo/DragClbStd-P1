@@ -1,3 +1,10 @@
+<?php
+    require 'php/funciones.php';
+    $obj = new Funciones();
+
+    $publicaciones = $obj->getPublicaciones();
+    //echo '<pre>', print_r($publicaciones), '</pre>';
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,8 +24,6 @@
     <link rel="stylesheet" href="css/secciones.css">
     <link rel="stylesheet" href="css/tablet.css">
 
-
-
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -28,14 +33,11 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
     <script src="js/button.js"></script>
     <script type='text/javascript'>
         $(document).ready(function() {
             anchor.init()
         });
-
         anchor = {
             init: function() {
                 $("a.anchorLink").click(function() {
@@ -148,7 +150,7 @@
                 <div class="info-nosotros textNos text-white">
                     <p>Manager - DragonClub Studios</p>
                 </div>
-                <div class="info-nosotros textNos text-white">
+                <div class="info-nosotros textNos text-white">-
                     <p>Nathan E.</p>
                 </div>
             </div>
@@ -265,10 +267,6 @@
                     </div>
                 </div>
 
-
-
-
-
                 <ul class="mb-5">
                 <button class=" ml-md-2 mr-md-2 ml-sm-2 mr-sm-2 lang vmMobile filtro ilustraciones" style="position: relative; top: -150px; margin-bottom: 10px; border: none; color: #fff; background-color: tomato; border-radius: 10px;" id="btnVMas" onclick="ShowHideElementVMas()" key="verMas">Ver mas</button>
                 </ul>
@@ -286,9 +284,8 @@
                         }
                         $("#btnVMas").html(textt);
                     }
-
                 </script>
-
+                
                 <div class="contVMas">
                     <div class="wow fadeInUp col-md-3 col-sm-6 col-12 caja  filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
@@ -353,9 +350,6 @@
                             </a>
                         </div>
                     </div>
-
-
-
                     <div class="wow fadeInUp col-md-3 col-sm-6 caja filtro ilustraciones" style="width: 100%;" data-wow-delay="0.6s">
                         <div class="work-thumb">
                             <a href="assets/img/portfolio/21.jpg" class="image-popup">
@@ -385,8 +379,21 @@
                     <iframe width="460" height="250" class="filtro videos" src="https://www.youtube.com/embed/AnZ6GUGrQ3E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
+                <!-- Cards -->
                 <div class="row d-flex justify-content-center" style="margin: 0;">
-                    <div class="card mb-5 mr-0 mr-sm-5 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
+                    <?php foreach($publicaciones as $publicaciones): ?>
+                        <div class="card offset-1 col-xl-5 mb-5 col-sm-5 col-10 filtro contenidos transCard">
+                         <img class="card-img-top mt-4"  src="syslgdbt/PuBliC/vis-ual-ite&&iibti/fileServer/<?php echo $publicaciones['archivo']; ?>">
+                            <div class="card-body">
+                            <h5 class="card-title "><strong> <?php echo $publicaciones['titulo']; ?> </strong></h5>
+                            <p class="card-text " > <?php echo $publicaciones['descripcion']; ?>
+                            </p>
+                            <a href="<?php echo $publicaciones['enlace']; ?>" class="badge badge-primary m-auto lang" key="cardPack1">Ver pack</a>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                    <div class="card offset-1 mb-5 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
                         <img src="assets/img/Awesome_Animal_Thumbnail.jpg" class="card-img-top mt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title lang" key="cardTitulo1"><strong> ¿Te gustaría disfrazarte de tus animales favoritos?</strong></h5>
@@ -396,7 +403,7 @@
                             <a href="https://www.minecraft.net/es-es/pdp?id=ef3e315a-6421-4f69-bc15-eca7447ae45d" class="badge badge-primary m-auto lang" key="cardPack1">Ver pack</a>
                         </div>
                     </div>
-                    <div class="card mb-5 mr-0 ml-sm-5 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
+                    <div class="card offset-1 mb-5 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
                         <img src="assets/img/marcket/contenido3/Heaven_Warrior_Thumbnail.jpg" class="card-img-top mt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title lang" key="cardTitulo2"><strong>¡Grandes batallas están teniendo lugar en los cielos!</strong></h5>
@@ -406,7 +413,7 @@
                             <a href="https://www.minecraft.net/es-es/pdp?id=e6169477-f374-4726-b5f3-5e25e0454b1c" class="badge badge-primary m-auto lang" key="cardPack2">Ver pack</a>
                         </div>
                     </div>
-                    <div class="card mb-3 mr-0 mr-sm-5 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
+                    <div class="card offset-1 mb-3 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
                         <img src="assets/img/imagen.jpg" class="card-img-top mt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title lang" key="cardTitulo3"><strong>¡Las pociones son fascinantes!</strong></h5>
@@ -418,7 +425,7 @@
                         </div>
                     </div>
 
-                    <div class="card mb-3 mr-0 ml-sm-5 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
+                    <div class="card offset-1 mb-3 col-xl-5 col-sm-5 col-10 filtro contenidos transCard">
                         <img src="assets/img/AnimalAristocrats_Thumbnail.jpg" class="card-img-top mt-4" alt="...">
                         <div class="card-body">
                             <h5 class="card-title lang" key="cardTitulo4"><strong>¡Diviértete celebrando tu propia fiesta aristocrática!</strong></h5>

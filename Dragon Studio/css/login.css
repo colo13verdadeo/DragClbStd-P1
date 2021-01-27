@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body{
+    background: #000;
+    color: #F01C1C;
+    font-family: montserrat;
+}
+
+/* Desktop */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 99vh;
+    align-items: center;
+}
+.contDragon{
+    width: 100%;
+}
+#logoDragon{
+    width: 110%;
+    opacity: .6;
+    margin-left: 50px;
+}
+.contLogin{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+#logoNombre{
+    width: 100%;
+    opacity: .8;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #777;
+}
+#loginbtn{
+    width: 30%;
+    height: 40px;
+    background-color: #777;
+    font-size: 20px;
+    font-stretch: normal;
+    border-radius: 20px;
+    color: #a81212ea;
+    margin: auto;
+}
+#loginbtn:hover{
+    background-color: #F01C1C;
+    opacity: .7;
+    width: 32%;
+    height: 45px;
+    transition: all 500ms;
+    color: #000;
+}
+/* Tablet */
+
+@media only screen and (max-width: 1300px){
+    .container{
+        width: 100%;
+    }
+    #logoDragon{
+        width: 110%;
+    }
+    .contLogin{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 150px;
+        margin-right: 100px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    body{
+        background: #000;
+    }
+    input{
+        height: 40px;
+    }
+    .container{
+        width: 100%;
+    }
+    #logoDragon{
+        width: 130%;
+    }
+    .contLogin{
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+        margin-left: 150px;
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 750px){
+    
+    input{
+        height: 40px;
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .contDragon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoDragon{
+        width: 70%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        opacity: .1;
+        z-index: -2;
+    }
+    .contLogin{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* Movil */
+@media only screen and (max-width: 590px){
+    input{
+        height: 40px;
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .contDragon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logoDragon{
+        width: 94%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        padding-top: 60px;
+        margin: auto;
+        opacity: .1;
+        z-index: -2;
+    }
+    .contLogin{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    #loginbtn{
+        height: 30px;
+        font-size: 16px;
+    }
+    .info{
+        margin-top: 20px;
+    }
+    #loginbtn:hover{
+        background-color: #F01C1C;
+        opacity: .7;
+        width: 32%;
+        height: 35px;
+    }
+}
